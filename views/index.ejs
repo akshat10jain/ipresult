@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1></h1>
-    <p>Welcome to <%-  JSON.stringify(title) %></p>
-  </body>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <!-- <h1></h1>
+    <p>Welcome to <%-  JSON.stringify(title) %></p> -->
+  <!-- <header class='head'>
+    <h1>Ipu Result</h1>
+  </header> -->
+
+  <div class='formbox'>
+    <form action='/users' method='get'>
+        <input type='text' id="enrollmentno" placeholder="Enrollment No."  class='box' />
+        <button type='submit'>Submit</button>
+    </form>
+
+  </div>
+  <p class="time"><%= moment().format('HH:mm'); %></p>
+  <p class="da"><%= moment().format('dddd, MMMM DD'); %></p>
+  
+ 
+
+</body> 
+
 </html>

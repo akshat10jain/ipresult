@@ -1,3 +1,4 @@
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -5,4 +6,122 @@ body {
 
 a {
   color: #00B7FF;
+}
+
+
+button{
+ 
+ background-color: transparent;
+ border: 2px solid #FFF;
+ border-radius: 15px;
+ color: #FFF;
+ width: 202%;
+ margin: 10% -5% 15% ;
+ padding: 5% ;
+ border-width: 5%;
+ font: 'consolas';
+ font-size: 200%; 
+ font-family: 'consolas';
+ font-weight: bold;
+ letter-spacing: 0.325em;
+ text-transform: uppercase;
+}
+  
+button:hover{
+  
+  color: black;
+ /* background-color: rgba(255,255,255,0.3); */
+ box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.67);
+ cursor: pointer;
+background-color: yellow;
+
+}
+ 
+.box{
+  padding: 0%;
+  margin: 0% -5% 0%;
+  width: 200%;
+  height: 50%;
+}
+  
+.formbox{
+  margin-left: 15%; 
+  width: 35%;
+  margin-top: 5%;
+  
+ 
+}
+  
+header{
+  font: 'consolas';
+  font-size:450%;
+  font-family:  'consolas';
+  color: #fff;
+  display: block;
+  margin-top:-11%; 
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.625em;
+  
+  
+
+}
+
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;    
+  font-size: 6rem;    
+  margin:0px;
+  letter-spacing: 0.12em;
+  height: 45px;
+  width: 100%;
+  outline: none;   
+  font-family: 'consolas';
+  
+}
+
+::placeholder {
+  color:#fff;
+  opacity:1;
+  text-transform: uppercase;
+  font-size: 4.9rem;
+  margin: 0.5rem 0;
+  font-family: 'consolas';
+}
+
+
+html{
+  background-image: url("http://andyporterimages.com/wp-content/uploads/2015/06/Northern-lights-at-Washington-Pass.jpg");
+background-size: cover;
+max-width: 100%;
+height: auto;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+}
+
+.time{
+  color: white;
+  float: left;
+  font-family: 'verdana';
+  
+  margin-top: 120px;
+  margin-left: -40px;
+  font-size: 35px;
+  position: relative;
+
+}
+.da{
+  color: #fff;
+  float: left;
+  font-family: 'consolas';
+ 
+  margin-top: 150px;
+  margin-left: -40px;
+  font-size: 35px;
+  position: absolute;
+ 
 }

@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var moment = require('moment');
 var mongodb = require('mongodb').MongoClient;
 
 /* GET home page. */
@@ -8,7 +9,7 @@ router.get('/home', function (req, res, next) {
     var collection = db.collection('pdf_students_collection')
     collection.findOne({ 'EnrollmentNo': '05276803115' }, function (err, result) {
       if (result) {
-        res.render('index', { title: result })
+        res.render('index', { title: result , moment: moment })
       }
       if (err) {
         console.log(err)
