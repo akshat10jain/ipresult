@@ -43,3 +43,5 @@ app.use(function (err, req, res, next) {
 });
 
 module.exports = app;
+// git remote add origin https://github.com/akshat10jain/result.git
+//git push -u origin master
